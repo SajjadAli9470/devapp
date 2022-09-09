@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "MotherBoard B450",
+            "desc": "Gigabyte Aorus Pro Wifi",
+            "price": 300,
+            "color": "#33505a",
+            "image": "https://www.paklap.pk/pub/media/catalog/product/cache/7e76858baa02afd4bb6d466a87d0383e/1/_/1_26_5.png",
+            "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 2,
+            "name": "Pixel 5",
+            "desc": "Google Pixel Phone",
+            "price": 444,
+            "color": "#00ac51",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQps7qnX1To0khPYWwPkjTYE9t-lYKUXugbrP298FmsrVDWQaLpOuo3OmN-QMA30OAoEdI&usqp=CAU",
+            "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 3,
+            "name": "Apple Watch",
+            "desc": "Series 7 45mm 2021",
+            "price": 400,
+            "color": "#f73984",
+            "image": "https://www.paklap.pk/pub/media/catalog/product/cache/7e76858baa02afd4bb6d466a87d0383e/m/k/mkn53_price_in_pakistan_45mm.jpg",
+            "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 4,
+            "name": "Redmi Airdots 2",
+            "desc": "Xiaomi Redmi AirDots",
+            "price": 30,
+            "color": "#f73984",
+            "image": "https://www.paklap.pk/pub/media/catalog/product/cache/7e76858baa02afd4bb6d466a87d0383e/1/_/1_57_1.jpg",
+            "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 5,
+            "name": "Astro A10 headset",
+            "desc": "Astro Gamming",
+            "price": 200,
+            "color": "#f73984",
+            "image": "https://resource.astrogaming.com/w_800,c_lpad,ar_1:1,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/astro/en/products/a10/a10-gallery-xbox-01.png?v=1",
+            "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 6,
+            "name": "Proxima Headset",
+            "desc": "Air Company Proxima",
+            "price": 100,
+            "color": "#f73984",
+            "image": "https://m.media-amazon.com/images/I/51y-uK8RaiL._AC_SY1000_.jpg",
+            "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 7,
+            "name": "Laptop Core i7",
+            "desc": "Dell Inspron Laptop ",
+            "price": 600,
+            "color": "#f73984",
+            "image": "https://www.paklap.pk/pub/media/catalog/product/cache/7e76858baa02afd4bb6d466a87d0383e/s/u/surface_studio_11th_gen_i7_price_in_pakistan.jpg",
+            "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": 8,
+            "name": "Xeon E5",
+            "desc": "Stationar Daton Xeon E5-2650L",
+            "price": 800,
+            "color": "#f73984",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR88E3JYKJ1ebG-HBHuSVzeoqBSwyC0as6n514q70EB907ivzjJ_ZmDF8-em3SsfEA1GQg&usqp=CAU",
+            "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    ]
+}
