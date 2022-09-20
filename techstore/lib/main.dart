@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:techstore/pages/cart_page.dart';
 import 'package:techstore/pages/home_page.dart';
 import 'package:techstore/pages/login_page.dart';
+import 'package:techstore/pages/signup_page.dart';
 import 'package:techstore/utils/routes.dart';
 import 'package:techstore/widgets/themes.dart';
 // ignore: depend_on_referenced_packages
@@ -38,12 +39,13 @@ class MyApp extends StatelessWidget {
       theme: MyTheme.lightTheme(context),
       darkTheme: MyTheme.darkTheme(context),
       debugShowCheckedModeBanner: false,
-      initialRoute: MyRoutes.loginRoute,
+      initialRoute: MyRoutes.SignRoute,
       routes: {
         // "/": (context) => HomePage(),
         MyRoutes.homeRoute: (context) => HomePage(),
         MyRoutes.loginRoute: (context) => LoginPage(),
-        MyRoutes.cartRoute: (context) => cartPage()
+        MyRoutes.cartRoute: (context) => cartPage(),
+        MyRoutes.SignRoute: (context) => SignPage(),
       },
     );
   }
