@@ -63,14 +63,14 @@ class _SignPageState extends State<SignPage> {
                 begin: Alignment.topRight,
                 end: Alignment.bottomLeft,
                 // Add one stop for each color. Stops should increase from 0 to 1
-                stops: const [0.1, 0.5, 0.7, 0.9],
+                stops: const [0.1, 0.4, 0.7, 0.9],
                 // ignore: prefer_const_literals_to_create_immutables
                 colors: [
                   // Colors are easy thanks to Flutter's Colors class.
                   Colors.blue.withOpacity(0.7),
-                  Colors.deepPurple.withOpacity(0.7),
+                  Colors.deepPurple.withOpacity(0.6),
                   Colors.blue.withOpacity(0.7),
-                  Colors.purple.withOpacity(0.6),
+                  Colors.purple.withOpacity(0.3),
                 ],
               ),
             ),
@@ -192,34 +192,72 @@ class _SignPageState extends State<SignPage> {
                         SizedBox(
                           height: 40.0,
                         ),
-                        InkWell(
-                          onTap: () => {movetoHome(context)},
-                          child: AnimatedContainer(
-                            duration: Duration(seconds: 1),
-                            width: changeButton ? 50 : 150,
-                            height: 50,
-                            alignment: Alignment.center,
-                            decoration: BoxDecoration(
-                              color: MyTheme.lightBluishColor,
-                              shape: changeButton
-                                  ? BoxShape.circle
-                                  : BoxShape.rectangle,
-                              // borderRadius: BorderRadius.circular(50)),
+                        Container(
+                          margin: EdgeInsets.all(5.0),
+                          decoration: BoxDecoration(
+                            gradient: LinearGradient(
+                              // Where the linear gradient begins and ends
+                              begin: Alignment.topRight,
+                              end: Alignment.bottomLeft,
+                              // Add one stop for each color. Stops should increase from 0 to 1
+                              stops: const [0.1, 0.4, 0.7, 0.9],
+                              // ignore: prefer_const_literals_to_create_immutables
+                              colors: [
+                                // Colors are easy thanks to Flutter's Colors class.
+                                Colors.blue.withOpacity(0.7),
+                                Colors.deepPurple.withOpacity(0.6),
+                                Colors.blue.withOpacity(0.7),
+                                Colors.purple.withOpacity(0.3),
+                              ],
                             ),
-                            child: changeButton
-                                ? Icon(
-                                    Icons.done,
-                                    color: Colors.white,
-                                  )
-                                : Text(
-                                    "Sign Up",
-                                    style: TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 18),
-                                  ),
+                            // color: Color.fromARGB(255, 31, 3, 29),
+                            borderRadius: BorderRadius.all(Radius.circular(10)),
+                          ),
+                          width: 170,
+                          height: 50,
+                          child: MaterialButton(
+                            onPressed: () {
+                              movetoHome(context);
+                            },
+                            child: const Text(
+                              "Sign up",
+                              style: TextStyle(
+                                  color: Color.fromARGB(255, 13, 32, 65),
+                                  fontSize: 20.0,
+                                  fontWeight: FontWeight.bold),
+                            ),
                           ),
                         ),
+                        Text("@copyright 2022 TechStore")
+                        // InkWell(
+                        //   onTap: () => {movetoHome(context)},
+                        //   child: AnimatedContainer(
+                        //     duration: Duration(seconds: 1),
+                        //     width: changeButton ? 50 : 150,
+                        //     height: 50,
+                        //     alignment: Alignment.center,
+
+                        //     // decoration: BoxDecoration(
+                        //     //   color: MyTheme.lightBluishColor,
+                        //     //   shape: changeButton
+                        //     //       ? BoxShape.circle
+                        //     //       : BoxShape.rectangle,
+                        //     //   // borderRadius: BorderRadius.circular(50)),
+                        //     // ),
+                        //     child: changeButton
+                        //         ? Icon(
+                        //             Icons.done,
+                        //             color: Colors.white,
+                        //           )
+                        //         : Text(
+                        //             "Sign Up",
+                        //             style: TextStyle(
+                        //                 color: Colors.white,
+                        //                 fontWeight: FontWeight.bold,
+                        //                 fontSize: 18),
+                        //           ),
+                        //   ),
+                        // ),
                       ],
                     ),
                   ),
