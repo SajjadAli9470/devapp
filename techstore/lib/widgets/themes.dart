@@ -13,7 +13,7 @@ class MyTheme {
         fontFamily: GoogleFonts.poppins().fontFamily,
         primaryTextTheme: GoogleFonts.latoTextTheme(),
         appBarTheme: AppBarTheme(
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.blue,
           elevation: 0.0,
           iconTheme: const IconThemeData(color: Colors.black),
           toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
