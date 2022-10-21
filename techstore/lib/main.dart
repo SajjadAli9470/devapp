@@ -3,10 +3,10 @@
 import 'package:flutter/material.dart';
 import 'package:techstore/pages/Customer_message.dart';
 import 'package:techstore/pages/cart_page.dart';
-import 'package:techstore/pages/chat_screen.dart';
+
 import 'package:techstore/pages/home_page.dart';
 import 'package:techstore/pages/login_page.dart';
-import 'package:techstore/pages/owner_message.dart';
+import 'package:techstore/pages/admin_message.dart';
 import 'package:techstore/pages/signup_page.dart';
 import 'package:techstore/utils/routes.dart';
 import 'package:techstore/widgets/themes.dart';
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
       theme: MyTheme.lightTheme(context),
       darkTheme: MyTheme.darkTheme(context),
       debugShowCheckedModeBanner: false,
-      initialRoute: MyRoutes.chatScreen,
+      initialRoute: MyRoutes.AdminMessage,
       routes: {
         // "/": (context) => HomePage(),
         MyRoutes.homeRoute: (context) => HomePage(),
@@ -51,7 +51,6 @@ class MyApp extends StatelessWidget {
         MyRoutes.SignRoute: (context) => SignPage(),
         MyRoutes.customerMessage: (context) => CustomerMessage(),
         MyRoutes.AdminMessage: (context) => OwnerMessage(),
-        MyRoutes.chatScreen: (context) => ChatScreen(),
       },
     );
   }

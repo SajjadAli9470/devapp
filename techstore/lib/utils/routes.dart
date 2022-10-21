@@ -6,5 +6,5 @@ class MyRoutes {
   static String cartRoute = "/cart";
   static String customerMessage = "/customerMessage";
   static String AdminMessage = "/AdminMessage";
-  static String chatScreen = "/chatScreen";
+  // static String chatScreen = "/chatScreen";
 }

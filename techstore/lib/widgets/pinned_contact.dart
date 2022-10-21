@@ -4,6 +4,8 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:techstore/models/message_model.dart';
 
+import '../pages/chat_screen.dart';
+
 class PinnedContact extends StatelessWidget {
   const PinnedContact({super.key});
 
@@ -35,16 +37,24 @@ class PinnedContact extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               itemCount: pinned.length,
               itemBuilder: (context, index) {
-                return Padding(
-                  padding: const EdgeInsets.only(right: 5),
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        radius: 35,
-                        backgroundImage: AssetImage(pinned[index].imageURL),
-                      ),
-                      (Text(pinned[index].name)),
-                    ],
+                return GestureDetector(
+                  onTap: () => {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (_) => ChatScreen(user: pinned[index])))
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.only(right: 5),
+                    child: Column(
+                      children: [
+                        CircleAvatar(
+                          radius: 35,
+                          backgroundImage: AssetImage(pinned[index].imageURL),
+                        ),
+                        (Text(pinned[index].name)),
+                      ],
+                    ),
                   ),
                 );
               }),
