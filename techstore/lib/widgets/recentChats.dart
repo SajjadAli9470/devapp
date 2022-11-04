@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:techstore/pages/Customer_message.dart';
 import 'package:techstore/pages/chat_screen.dart';
 
 import '../models/message_model.dart';
@@ -26,7 +27,7 @@ class RecentChats extends StatelessWidget {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (_) => ChatScreen(user: chat.Sender)))
+                          builder: (_) => CustomerMessage(user: chat.Sender)))
                 },
                 child: Container(
                   padding: EdgeInsets.all(5.0),

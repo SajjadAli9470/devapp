@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.loginRoute: (context) => LoginPage(),
         MyRoutes.cartRoute: (context) => cartPage(),
         MyRoutes.SignRoute: (context) => SignPage(),
-        MyRoutes.customerMessage: (context) => CustomerMessage(),
+        // MyRoutes.customerMessage: (context) => CustomerMessage(),
         MyRoutes.AdminMessage: (context) => OwnerMessage(),
       },
     );

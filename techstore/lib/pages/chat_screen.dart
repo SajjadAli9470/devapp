@@ -24,7 +24,6 @@ class _ChatScreenState extends State<ChatScreen> {
               top: 8.0,
               bottom: 8.0,
             ),
-
       width: MediaQuery.of(context).size.width * 0.75,
       decoration: BoxDecoration(
         borderRadius: isMe
@@ -46,36 +45,6 @@ class _ChatScreenState extends State<ChatScreen> {
         ),
         Positioned(bottom: 0, right: 7, child: Text(message.time))
       ]),
-      // child: Column(children: [
-      //   Text(
-      //     message.text,
-      //     textAlign: TextAlign.left,
-      //   ),
-      //   Text(message.time)
-      // ]),
-      // child: Column(children: [
-      //   // isMe
-      //   //     ? Text("")
-      //   //     : Padding(
-      //   //         padding: const EdgeInsets.only(right: 10),
-      //   //         child: CircleAvatar(
-      //   //           backgroundImage: AssetImage(message.Sender.imageURL),
-      //   //           radius: 10,
-      //   //         ),
-      //   //       ),
-      //   Container(
-      //     child: Flexible(
-      //       child: Text(
-      //         message.text,
-      //         softWrap: true,
-      //       ),
-      //     ),
-      //   ),
-      //   Container(
-      //     color: Colors.red,
-      //     child: Text(message.time),
-      //   )
-      // ]),
     );
     if (isMe) {
       return msg;

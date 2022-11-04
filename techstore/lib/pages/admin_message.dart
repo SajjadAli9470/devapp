@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:techstore/widgets/category_Selector.dart'; 
+import 'package:techstore/widgets/category_Selector.dart';
 import '../widgets/pinned_contact.dart';
 import '../widgets/recentChats.dart';
 
@@ -37,7 +37,7 @@ class _OwnerMessageState extends State<OwnerMessage> {
         ],
       ),
       body: Column(children: <Widget>[
-        category_Selector(),
+        // category_Selector(),
         Expanded(
           child: Container(
             decoration: BoxDecoration(
